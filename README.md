@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # NearBy
 
 NearBy 是一個基於地理位置的移動應用程式，幫助用戶收藏喜愛的店家、在 Google 地圖上查看店家位置，並在靠近時接收自動推送通知。無論是探索附近美食還是記錄常去的咖啡廳，NearBy 都能讓你的生活更便利。
@@ -64,6 +63,3 @@ npm run dev
 - MongoDB >= 6.0
 - Expo CLI
 - Google Maps API 金鑰
-=======
-# NearBy
->>>>>>> 75d130c5a24c91d30672033d806aafe77729d33c
