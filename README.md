@@ -1,65 +1,65 @@
 # NearBy
 
-NearBy 是一個基於地理位置的移動應用程式，幫助用戶收藏喜愛的店家、在 Google 地圖上查看店家位置，並在靠近時接收自動推送通知。無論是探索附近美食還是記錄常去的咖啡廳，NearBy 都能讓你的生活更便利。
+NearBy is a location-based mobile application that helps users save their favorite stores, view store locations on Google Maps, and receive automatic push notifications when nearby. Whether you're exploring local cuisine or keeping track of your favorite coffee shops, NearBy makes your life more convenient.
 
-## 專案結構
+## Project Structure
 
 ```
 NearBy/
-├── client/                 # React Native + Expo 前端
-├── server/                 # Node.js + Express 後端
+├── client/                 # React Native + Expo Frontend
+├── server/                 # Node.js + Express Backend
 └── README.md
 ```
 
-## 技術棧
+## Tech Stack
 
-- 前端：React Native + Expo
-- 後端：Node.js + Express
-- 資料庫：MongoDB
-- 地圖服務：Google Maps API
-- 推送通知：Expo Notifications
+- Frontend: React Native + Expo
+- Backend: Node.js + Express
+- Database: MongoDB
+- Maps Service: Google Maps API
+- Push Notifications: Expo Notifications
 
-## 功能特點
+## Key Features
 
-- 店家收藏管理：添加、刪除和查看收藏的店家。
-- Google 地圖整合：顯示用戶當前位置和收藏店家的標記。
-- 基於地理位置的推送通知：當用戶靠近收藏店家時自動推送提醒。
-- 使用者位置追蹤：實時更新用戶位置，支援地理圍欄（Geofencing）。
+- Store Management: Add, delete, and view saved stores.
+- Google Maps Integration: Display user's current location and store markers.
+- Location-based Push Notifications: Automatic alerts when users are near saved stores.
+- User Location Tracking: Real-time location updates with geofencing support.
 
-## 開發環境設置
+## Development Environment Setup
 
-### 前端設置
+### Frontend Setup
 
-1. 安裝依賴：
+1. Install dependencies:
 ```bash
 cd client
 npm install
 ```
 
-2. 配置環境變數：
-- 至 `.env` 填入必要的 API 金鑰和資料庫連接資訊
+2. Configure environment variables:
+- Add necessary API keys and database connection information to `.env`
 
-3. 啟動開發伺服器：
+3. Start development server:
 ```bash
 npm start
 ```
 
-### 後端設置
+### Backend Setup
 
-1. 安裝依賴：
+1. Install dependencies:
 ```bash
 cd server
 npm install
 ```
 
-2. 啟動開發伺服器：
+2. Start development server:
 ```bash
 npm run dev
 ```
 
-## 環境要求
+## Environment Requirements
 
 - Node.js >= 18
 - MongoDB >= 6.0
 - Expo CLI
-- Google Maps API 金鑰
+- Google Maps API Key
